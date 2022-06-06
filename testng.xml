@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testcases.CC_MemberOfProfessionalCheck"/>
+      <class name="Testcases.CC_MemberOfAssetManagerCheck"/>
+      <class name="Testcases.CustomContentAdd"/>
+      <class name="Testcases.CC_BusinessCheck"/>
+      <class name="Testcases.CustomContentDelete"/>
+      <class name="Testcases.CustomContentEdit"/>
+      <class name="Testcases.CC_MemberOfBusinessCheck"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.US_141_SurveyQuestionsView">
+      <class name="Testcases.US_21_ProfessionalUser">
         <methods>
+          <include name="checkaddgoal"/>
           <include name="tearDown"/>
-          <include name="US_141_SurveyQuestionsViewFunctionality"/>
+          <include name="CheckContactUsDetailsFunctionality"/>
           <include name="setUp"/>
-          <include name="check1"/>
         </methods>
-      </class> <!-- Testcases.US_141_SurveyQuestionsView -->
+      </class> <!-- Testcases.US_21_ProfessionalUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

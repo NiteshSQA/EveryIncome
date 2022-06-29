@@ -19,7 +19,7 @@ public class CustomContentDelete extends BaseClass {
 	
 	
 	@BeforeTest
-	public void check1()
+	public void checkdeletecontent()
 	{
 		login = new Loginscreen(driver);
 		CustomContentDelete = new CustomContentScreen(driver);

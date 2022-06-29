@@ -18,7 +18,7 @@ public class CC_MemberOfBusinessCheck extends BaseClass{
 	static List<List<Object>> Credentials = null;
 	
 	@BeforeTest
-	public void check1()
+	public void MemberOfBusiness()
 	{
 		login= new Loginscreen(driver);
 		MemberOfBusinessCheck = new CustomContentScreen(driver);

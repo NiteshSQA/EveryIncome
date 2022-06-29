@@ -19,7 +19,7 @@ public class CC_MemberOfAssetManagerCheck extends BaseClass{
 	static List<List<Object>> Credentials = null;
 	
 	@BeforeTest
-	public void check1()
+	public void MemberOfAssetManager()
 	{
 		login= new Loginscreen(driver);
 		MemberOfAssestManagerCheck = new CustomContentScreen(driver);

@@ -18,7 +18,7 @@ public class CC_MemberOfProfessionalCheck extends BaseClass {
 	static List<List<Object>> Credentials = null;
 	
 	@BeforeTest
-	public void check1()
+	public void MemberOfProfessional()
 	{
 		login= new Loginscreen(driver);
 		MemberOfProfessionalCheck = new CustomContentScreen(driver);

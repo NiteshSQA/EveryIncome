@@ -17,7 +17,7 @@ public class TaskFunctionality extends BaseClass {
 	static List<List<Object>> Credentials = null;
 	
 	@BeforeTest
-	public void checkaddgoal()
+	public void Taskadd()
 	{
 		login = new Loginscreen(driver);
 		Task = new TaskScreen(driver);
@@ -30,7 +30,7 @@ public class TaskFunctionality extends BaseClass {
 	}
 	
 	@Test
-	public void TaskOperations() throws InterruptedException
+	public void TaskFunctionality() throws InterruptedException
 	{
 		 // Login code
 		login.username(Credentials.get(63).get(1).toString());

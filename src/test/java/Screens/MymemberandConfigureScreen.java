@@ -40,9 +40,7 @@ public class MymemberandConfigureScreen {
 	@FindBy(xpath ="//div[@class='hex-text ng-star-inserted']//input")
 	WebElement PrimaryColorInput;
 	
-	
-	
-	@FindBy(xpath ="//zz-text[@label='Company Name']//input[@type='text']")
+	@FindBy(xpath ="//zz-text[@label='Organization Name']//input[@type='text']")
 	WebElement Mymember;
 	
 	@FindBy(xpath ="//div[@class='color-container accent']")

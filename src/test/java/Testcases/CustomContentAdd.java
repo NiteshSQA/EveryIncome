@@ -23,7 +23,7 @@ public class CustomContentAdd extends BaseClass {
 	static List<List<Object>> Credentials = null;
 	
 	@BeforeTest
-	public void check1()
+	public void checkaddcontent()
 	{
 		login= new Loginscreen(driver);
 		CustomContenAdd = new CustomContentScreen(driver);

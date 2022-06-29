@@ -84,20 +84,7 @@ public class EditGoal extends BaseClass {
 		
 		
 		EditGoal.StartGoalBtn();
-	/*	driver.findElement(By.xpath("//a[@class='saveGoalState button y-primary-button y-text-align-center']")).click();
-		Thread.sleep(4000);
-		
-	driver.findElement(By.xpath("//a[@id='sfgSaveGoalEdit']")).click();
 	
-	
-Thread.sleep(3000);
-
-driver.findElement(By.xpath("//span[@id='saveBtnMedium']")).click();	
-
-Thread.sleep(3000);
-
-driver.findElement(By.xpath("//a[@id='saveGoalState']")).click();	
-*/
 }
 	
 }

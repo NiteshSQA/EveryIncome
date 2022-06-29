@@ -53,7 +53,9 @@ public class US_21_ProfessionalUser extends BaseClass {
 	    
 	    ContactUs.StatesLicensedTxt(Credentials.get(84).get(1).toString());
 	    
-	    ContactUs.AboutBioTxt(Credentials.get(85).get(1).toString());
+	//    ContactUs.AboutBioTxt();
+	    
+	    ContactUs.AboutBio1Txt(Credentials.get(85).get(1).toString());
 	    	    
 	    ContactUs.SaveChangesBtn();
 	    
@@ -84,7 +86,7 @@ public class US_21_ProfessionalUser extends BaseClass {
 	    
 	    ContactUs.AboutCheckMethod();
         
-
+        // ContactUs.check2();
 	
 	}
 }

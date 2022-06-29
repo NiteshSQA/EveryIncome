@@ -1,5 +1,8 @@
 package Screens;
 
+import java.util.NoSuchElementException;
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,14 +29,18 @@ public WebDriver driver;
 	WebElement ContactProfile;
 	
 	
-	@FindBy(xpath = "//zz-text[@label='Specialties']//div[@class='ng-star-inserted']")
+	@FindBy(xpath = "(//input[@type='text'])[2]")
 	WebElement Specialties;
 	
 	@FindBy(xpath = "//zz-text[@label='States Licensed']//input[@type='text']")
 	WebElement StatesLicensed;
 	
-	@FindBy(xpath = "//body/everyincome[1]/sponsor-management[1]/ei-side-bar[1]/div[2]/sponsor-profile-mgr[1]/div[1]/panel[1]/div[2]/div[1]/form[1]/div[5]/zz-text[3]/label[1]/textarea[1]")
+	@FindBy(xpath = "//textarea[@class='zz-form-control-input ng-untouched ng-pristine ng-valid ng-star-inserted']")
 	WebElement AboutBio;
+	
+	@FindBy (css = ".zz-form-control-input.ng-valid.ng-star-inserted.ng-touched.ng-pristine")
+	WebElement AboutBio1;
+	
 	
 	@FindBy(xpath = "//span[contains(text(),'Save changes')]")
 	WebElement SaveChanges;
@@ -80,16 +87,25 @@ public WebDriver driver;
 		  
 		StatesLicensed.clear();
 		StatesLicensed.sendKeys(StatesLicensedTxt);
-		  Thread.sleep(2000);
+		  Thread.sleep(4000);
 	  }
 	
-	public void AboutBioTxt(String AboutBioTxt) throws InterruptedException
+	public void AboutBioTxt() throws InterruptedException
 	  {
 		  
 		AboutBio.clear();
+		
+		  Thread.sleep(2000);
+	  }
+	
+	public void AboutBio1Txt(String AboutBioTxt) throws InterruptedException
+	  {
+		  
+		
 		AboutBio.sendKeys(AboutBioTxt);
 		  Thread.sleep(2000);
 	  }
+	
 	
 	public void SaveChangesBtn() throws InterruptedException 
 	{
@@ -193,6 +209,34 @@ public WebDriver driver;
 		
 	}
 	
+
+	/*
+	public void check2()
+	{
+		
 	
+				
+		
+		try {
+			
+			boolean abc = AboutCheck.isDisplayed();
+			if(abc==true)
+			{
+				System.out.println("I can see it");
+				
+			}
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			
+			
+				System.out.println("I cannot");
+			
+				
+		}
+		
+		
+			
+			
+	}
+	*/
 	
 }

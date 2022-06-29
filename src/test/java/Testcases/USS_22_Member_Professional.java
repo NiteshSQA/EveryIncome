@@ -45,6 +45,7 @@ public class USS_22_Member_Professional extends BaseClass {
 			    
 			    // Member Tab
 			    
+			    Thread.sleep(3000);
 			    Member.MemberBtn();
 			    
 			    //Add member textbox

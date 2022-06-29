@@ -98,7 +98,7 @@ public void LogoBtn() throws InterruptedException
 public void AdminLinkBtn() throws InterruptedException 
 {
 	AdminLink.click();
-	Thread.sleep(4000);
+	Thread.sleep(6000);
 }
 
 

@@ -28,7 +28,7 @@ public class US_48_CancelPlatformProfessional extends BaseClass{
 			
 		}
 	}
-	/*
+	
 	@Test(priority = 1)
 	public void CancelPlatformProfessionalFunctionality() throws InterruptedException
 	{
@@ -57,7 +57,7 @@ public class US_48_CancelPlatformProfessional extends BaseClass{
 	    Cancel.CancelCheckfunction();
 	 
 	}    
-	 */  
+	 
 	
 	@Test(priority = 2)
 	public void CancelPlatformBusinessFunctionality() throws InterruptedException
@@ -94,7 +94,7 @@ public class US_48_CancelPlatformProfessional extends BaseClass{
 	    
 	}    
 	
-	/*
+	
 	@Test(priority = 1)
 	public void CancelPlatformAssestManagerFunctionality() throws InterruptedException
 	{
@@ -129,5 +129,5 @@ public class US_48_CancelPlatformProfessional extends BaseClass{
 	    Cancel.CancelCheckfunction();
 	    
 	}    
-	*/
+	
 }

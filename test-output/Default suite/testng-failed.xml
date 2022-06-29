@@ -7,8 +7,8 @@
         <methods>
           <include name="checkaddgoal"/>
           <include name="tearDown"/>
-          <include name="CheckContactUsDetailsFunctionality"/>
           <include name="setUp"/>
+          <include name="AddContactUsDetailsFunctionality"/>
         </methods>
       </class> <!-- Testcases.US_21_ProfessionalUser -->
     </classes>

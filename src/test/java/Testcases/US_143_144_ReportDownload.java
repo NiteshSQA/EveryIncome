@@ -64,6 +64,10 @@ public class US_143_144_ReportDownload extends BaseClass {
         Download.DropdownList3Btn(Credentials.get(60).get(1).toString());
 	    
 	    Download.DownloadBtn();
+	    
+        Download.DropdownList3Btn(Credentials.get(61).get(1).toString());
+  	    
+	    Download.DownloadBtn();
 	
 	}
 }

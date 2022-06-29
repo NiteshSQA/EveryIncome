@@ -23,7 +23,7 @@ public class CustomContentEdit extends BaseClass {
 	
 	
 	@BeforeTest
-	public void check1() 
+	public void checkeditcontent() 
 	{
 		
 		login = new Loginscreen(driver);

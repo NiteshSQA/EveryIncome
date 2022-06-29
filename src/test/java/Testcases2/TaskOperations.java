@@ -17,7 +17,7 @@ public class TaskOperations extends BaseClass {
 		static List<List<Object>> Credentials = null;
 		
 		@BeforeTest
-		public void checkaddgoal()
+		public void TaskOperation()
 		{
 			login = new Loginscreen(driver);
 			TaskEdit = new TaskScreen(driver);

@@ -44,6 +44,7 @@ public class US_22_Configure_Professional extends BaseClass {
 	    login.login();
 	    
 	    // Configure Tab
+	    Thread.sleep(3000);
 	    
 	    Configure.ConfigureBtn();
 	    
